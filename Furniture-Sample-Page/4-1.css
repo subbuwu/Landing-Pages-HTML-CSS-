@@ -1,0 +1,245 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 18px;
+}
+
+body {
+    font-family: 'Poppins',sans-serif;
+    line-height: 1.55;
+    color:#3C3A47
+}
+
+
+h1{
+    font-size: 3.15rem;
+    font-weight: 700;
+    letter-spacing: -2px;
+}
+
+h2{
+    font-size: 1.75rem;
+    font-weight: 300;
+    letter-spacing: -1px;
+    color:rgba(60, 58, 71, .8);
+}
+
+h3 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    letter-spacing: -2px;
+    margin-bottom: 2rem;
+    color:rgba(60, 58, 71)
+}
+
+h3.large {
+    font-size: 3.15rem;
+}
+
+.dark h3 {
+    color:white;
+}
+
+h4{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 1.3rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+p.section-intro {
+    font-weight: 200;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.dark p.section-intro {
+    color: rgba(255,255,255,.8);
+}
+
+p.number {
+    font-size: 2.4rem;
+    font-weight: 200;
+    color: rgba(60, 58, 71, .5);
+}
+
+p.large {
+    font-size: 1.75rem;
+    font-weight: 200;
+    letter-spacing: -1px;
+}
+
+a {
+    font-weight: 700;
+    text-decoration: none;
+    color:#9F7657;
+}
+
+a:hover {
+    color: rgb(60, 58, 71);
+}
+
+form input,
+form textarea,
+form button{
+    font-family: 'Poppins',sans-serif;
+    font-size: 1rem;
+    line-height: 1.55;
+}
+
+
+/* LAYOUT DESIGN :  */
+
+
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+
+}
+
+.container.small {
+    width: 60%;
+    max-width: 35rem;
+}
+
+#main-header,section {
+    padding: 13rem 0;
+    text-align: center;
+}
+
+#main-header h1 {
+    margin: 7rem 0 1rem 0;
+}
+
+#main-header h2 {
+    margin-bottom: 7rem;
+}
+
+.btn {
+    box-sizing: border-box;
+    padding: 1.3rem 3.5rem;
+    border: 1px solid rgb(159, 118, 79); 
+    font-weight: 700;
+}
+
+.btn:hover{
+    background-color: rgb(60, 58, 71);
+    border-color: rgb(60, 58, 71);
+    color: white;
+}
+
+
+#our-chairs {
+    padding: 13rem 0;
+    text-align: center;
+    background-color:#EFF0EA;
+}
+
+section header {
+    margin-bottom: 3.5rem;
+}
+
+h3 + p {
+    max-width: 35rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery img {
+    width: 378px;
+    height: 480px;
+    margin-bottom: 1.4rem;
+}
+
+.gallery {
+    display: flex;
+    text-align: left;
+    margin-bottom: 5rem;
+}
+
+.dark {
+    background-color:#3C3A47;
+
+}
+
+.dark label{
+    color: rgba(255,255,255,.8);
+}
+
+
+form div {
+    margin-bottom:1.75rem ;
+}
+
+form label {
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 1;
+    text-align: left;
+    margin-bottom: .5rem;
+}
+
+form input , form textarea {
+    background-color: rgba(255,255,255,.1);
+    border: none;
+    padding: 1rem;
+    width: 100%;
+    resize: none;
+    color: rgba(255,255,255);
+}
+
+form button {
+    width: 100%;
+    cursor: pointer;
+}
+
+.dark .btn {
+    border: 1px solid rgba(255,255,255,.8);
+    background-color: transparent;
+    color: white;
+}
+
+.dark .btn:hover {
+    background-color: white;
+    color: #3C3A47;
+}
+
+
+p.muted {
+    color: rgba(255,255,255,.5)
+}
+
+form button+p {
+    margin-bottom: 1.75rem;
+}
+
+
+.social-icons {
+    list-style: none;
+    display: flex;
+    gap:2.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+p.large + .social-icons {
+    margin-top: 7rem;
+
+}
+
+footer {
+    padding: 5rem 0;
+
+}
+
+footer p {
+    text-align: center;
+}

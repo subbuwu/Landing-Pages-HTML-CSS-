@@ -1,0 +1,4 @@
+# Landing-Pages-HTML-CSS-
+All files for the landing pages I've created from scratch using HTML and CSS
+THIS IS A FOLDER WHERE I PRACTICED HTML AND CSS BY CREATING STATIC WEB PAGES .
+FEEL FREE TO CONTACT ME IF ANY CHANGES SHOULD BE MADE.
